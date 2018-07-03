@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const meow = require("meow");
 const { downloadBreaches } = require("../index");
 const { options } = require("../package.json");
