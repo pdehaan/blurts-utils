@@ -1,0 +1,31 @@
+{
+  "name": "blurts-utils",
+  "description": "Utils for working w/ Firefox Monitor (aka Blurts)",
+  "version": "1.0.0",
+  "author": "Moe Zilla",
+  "bin": {
+    "download-breaches": "bin/download-breaches.js",
+    "download-logos": "bin/download-logos.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pdehaan/blurts-utils/issues"
+  },
+  "dependencies": {
+    "got": "8.3.2",
+    "meow": "5.0.0"
+  },
+  "homepage": "https://github.com/pdehaan/blurts-utils",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "options": {
+    "production": {
+      "breachesUrl": "https://haveibeenpwned.com/api/v2/breaches",
+      "logoBaseUrl": "https://haveibeenpwned.com/Content/Images/PwnedLogos"
+    }
+  },
+  "repository": "pdehaan/blurts-utils",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
